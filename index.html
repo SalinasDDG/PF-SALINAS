@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Preentrega</title> <!--Titulo de la pestaña -->
+
+    <!--link al archivo bootstrap y CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./media/icons/style.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/grids.css">
+    <link rel="stylesheet" href="./CSS/mediaqueri.css">
+</head>
+
+<body>   
+ <header> <!--Cabecera-->
+    <div class="main">
+        <div class="name col-md-12">
+            <h1 class="nombre_empresa">HORNETS BASQUET</h1>
+        </div>  
+        <div class="icons col-md-0">
+            <span class="icon-users"></span>
+            <a href="./pagina05.html" class="icon-cart"></a>
+        </div><!--Agregar propiedades a los iconos-->
+    </div>
+        
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button"    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon icon-menu3"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./pagina02.html">productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pagina03.html">contactos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                redes sociales
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://es-la.facebook.com/login/device-based/regular/login/"><span class="icon-facebook">  </span>facebook</a></li>
+                <li><a class="dropdown-item" href="https://z-p4.www.instagram.com/accounts/login/?next=/p/CQdTdLFFA0z/c/18232458973013395/&source=desktop_nav&hl=es"><span class="icon-instagram"></span>instagram</a></li>
+                <li><a class="dropdown-item" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><span class="icon-twitter"></span>twiter</a> </li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/"><span class="icon-youtube"></span>youtube</a></li>
+              </ul>
+            </li>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+              <button>
+              <span class="icon-search"></span>
+              </button>
+            </form>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+ </header>
+
+ <main>
+     <!--imagen principal-->
+    <div>
+        <img  id="imagenPrincipal" class="img-fluid" src="./Imagenes/nba-fondo-de-pantalla-de-escritorio.jpg" alt="banner">
+    </div>
+    <h1 class="titleProductos">· p r o d u c t o s ·</h1>
+    <div>
+      <a href="./pagina02.html#lebron" target="_blank">
+      <img  class="img-fluid lebron" src="./Imagenes/LAKE_Desk.jpg" alt="lakers">
+      </a>
+    </div>
+    <div class="productos">    
+      <ol>
+        <li>c a m i s e t a s</li>
+        <div class="line"></div>
+        <li>u r b a n o</li>
+        <div class="line"></div>
+        <li>c a l z a d o s</li>
+        <div class="line"></div>
+        <li>a c c e s o r i o s</li>
+      </ol>   
+      <img class="prod1" src="./Imagenes/Pagina 01-01.jpeg" alt="Camisetas">
+      <img class="prod2" src="./Imagenes/Pagina 01-2.jpeg" alt="Urbano">
+      <img class="prod3" src="./Imagenes/Pagina 01-03.jpeg" alt="Accesorios">
+      <img class="prod4" src="./Imagenes/Pagina 01-04.jpeg" alt="Calzado">
+    </div>
+
+    <h1 class="titleRedessociales">· seguinos en nuestras redes sociales ·</h1>
+    <div class="redes_sociales">
+      <div class="invitacion"> 
+        <p class="esc">"Compartimos nuestros mejores momentos para que nos conozcas mucho más. Te invitamos a seguirnos, comentar, debatir, compartir y conocer mas de nosotros; y sobre mas personas que tambien aman este deporte.</p>
+        <p class="mov">"No te pierdas de nada"</p>
+      </div>  
+
+      <!--carousel-->
+      <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+            <img src="./Imagenes/redes01.png" class="d-block w-100" alt="imagen de facebook">
+      </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/redes02.jpg" class="d-block w-100" alt="videoYoutube">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Pag.01 - redes3.jpg" class="d-block w-100" alt="imagen de instagram">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/redes03.jpg" class="d-block w-100" alt="imagen de instagram2">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+      </div>
+    </div>
+    <div>
+      <a href="./pagina02.html#lavine" target="_blank">
+        <img class="img-fluid" src="./Imagenes/BULL_Desk.jpg" alt="lavine"></a>
+    </div>
+
+  </main>
+
+  <footer> <!--Pie de pagina-->
+    <div class="img_empresa">
+        <img src="./Imagenes/Hornets.jpg" alt="Logo de la empresa" width="100">
+        <h2 class="nombre_empresa_foot" >HORNETS BASQUET</h2>
+    </div>
+        <!--menu de redes-->
+    <nav class="redes_sociales"> 
+      <ol>
+          <li><a href="https://es-la.facebook.com/login/device-based/regular/login/"><span class="icon-facebook"></span>Facebook</a></li>
+          <li><a href="https://z-p4.www.instagram.com/accounts/login/?next=/p/CQdTdLFFA0z/c/18232458973013395/&source=desktop_nav&hl=es"><span class="icon-instagram"></span>Instagram</a></li>
+          <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><span class="icon-twitter"></span>Twiter</a> </li>
+          <li><a href="https://www.youtube.com/"><span class="icon-youtube"></span>Youtube</a></li>
+      </ol> 
+    </nav>
+    </nav>
+
+      <!--Menu de navegacion-->
+    <nav class="menu_footer">
+      <ul>
+        <li><a href="./Index.html">INICIO</a></li>
+        <li><a href="./Pagina02.html">PRODUCTOS</a></li>
+        <li><a href="./Pagina03.html">CONTACTO</a></li>
+        <li><a href="./pagina05.html">CARRITO</li>
+      </ul>
+    </nav>
+
+    <div class="volver_arriba">
+     <a class="boton_volver" href="#top"><span class="icon-circle-up"></span></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+/*index seccion de productos*/
+div.productos{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr repeat(2,2fr);
+    grid-template-areas:
+    "nav cami urbano"
+    "nav accesorios calzado";
+    background-color: hsla(0, 0%, 0%, 0.870);
+
+}
+
+
+div.productos img.prod1{grid-area: cami;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+}
+div.productos img.prod1:hover{
+    border: 5px solid  rgb(38, 186, 206)}
+div.productos img.prod2{grid-area: urbano;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+}
+div.productos img.prod2:hover{
+    border: 5px solid  rgb(38, 186, 206)}
+div.productos img.prod3{grid-area: accesorios;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+}
+div.productos img.prod3:hover{
+    border: 5px solid  rgb(38, 186, 206)}
+div.productos img.prod4{ grid-area: calzado;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+}
+div.productos img.prod4:hover{
+    border: 5px solid  rgb(38, 186, 206)}
+
+
+
+
+/*pagina02 gallery*/
+div.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+    "imagen21 imagen02 imagen01"
+    "imagen04 imagen05 imagen06"
+    "imagen07 imagen08 imagen09"
+    "imagen10 imagen11 imagen12"
+    "imagen13 imagen14 imagen15"
+    "imagen16 imagen17 imagen18"
+    "imagen19 imagen20 imagen03";
+    row-gap: 8px;
+    column-gap: 8px;
+}
+
+div.gallery div.imagen01 img{
+    grid-area: imagen01;
+
+}
+div.gallery div.imagen02 img{
+    grid-area: imagen02;
+
+}
+div.gallery div.imagen03{
+    grid-area: imagen03;
+}
+div.gallery div.imagen04{
+    grid-area: imagen04;
+}
+div.gallery div.imagen05{
+    grid-area: imagen05;
+}
+div.gallery div.imagen06{
+    grid-area: imagen06;
+}
+div.gallery div.imagen07{
+    grid-area: imagen07;
+}
+div.gallery div.imagen08{
+    grid-area: imagen08;
+}
+div.gallery div.imagen09{
+    grid-area: imagen09;
+}
+div.gallery div.imagen10{
+    grid-area: imagen10;
+}
+div.gallery div.imagen11{
+    grid-area: imagen11;
+}
+div.gallery div.imagen12{
+    grid-area: imagen12;
+}
+div.gallery div.imagen13{
+    grid-area: imagen13;
+}
+div.gallery div.imagen14{
+    grid-area: imagen14;
+}
+div.gallery div.imagen15{
+    grid-area: imagen15;
+}
+div.gallery div.imagen16{
+    grid-area: imagen16;
+}
+div.gallery div.imagen17{
+    grid-area: imagen17;
+}
+div.gallery div.imagen18{
+    grid-area: imagen18;
+}
+div.gallery div.imagen19{
+    grid-area: imagen19;
+}
+div.gallery div.imagen20{
+    grid-area: imagen20;
+}
+div.gallery div{
+    width: 350px;
+}
+div.gallery div.imagen21{
+    grid-area: imagen21;
+}
+div.gallery div img{
+    width: 99%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+div.gallery div h3{
+    text-align: center;
+}
+
+/*pagina04*/
+main.pag04 div.producto{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr) ;
+    grid-template-areas: 
+    "img img img variantes"
+    "img img img variantes"
+    "desc desc desc comp"
+    "desc01 desc01 desc01 comp"
+}
+
+main.pag04 div.prod{
+    grid-area: img;
+}
+div.descripcion{
+    grid-area: desc;
+}
+div.descripcion01{
+    grid-area: desc01;
+}
+aside.variantes{
+    grid-area: variantes; 
+    text-align: center;  
+}
+div.pagos{
+    grid-area: comp;
+}
