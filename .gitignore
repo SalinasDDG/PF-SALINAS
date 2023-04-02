@@ -3,6 +3,10 @@
 
 *.txt
 
+scss
+
+backups-css
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/configuración.json
