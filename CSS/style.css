@@ -443,7 +443,7 @@ a.boton_volver {
 main.pag02 {
   display: flex;
   justify-content: center;
-  background-color: hsla(0, 0%, 0%, 0.87);
+  background-image: linear-gradient(rgb(0, 31, 51), black);
   padding: 15px;
 }
 
@@ -522,7 +522,7 @@ div.row div {
 /*pagina03*/
 /*main*/
 main.pagina_contacto {
-  background-color: hsla(0, 0%, 0%, 0.87);
+  background-image: linear-gradient(rgb(0, 31, 51), black);
   color: white;
   display: flex;
   flex-direction: column;
@@ -578,7 +578,7 @@ div.sobre-nosotros p {
 
 /*pagina04*/
 main.pag04 {
-  background-color: hsla(0, 0%, 0%, 0.87);
+  background-image: linear-gradient(rgb(0, 31, 51), black);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -698,6 +698,37 @@ div.pagos {
   grid-area: comp;
 }
 
+/*pagina05*/
+main.pag05 {
+  background-image: linear-gradient(rgb(0, 31, 51), black);
+}
+main.pag05 h2 {
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+}
+main.pag05 table.table {
+  color: white;
+}
+main.pag05 table.table tbody td img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+main.pag05 div.button-pag05 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+main.pag05 div.button-pag05 button {
+  margin: 15px;
+  width: 40%;
+  border-radius: 90px;
+}
+
 /*media queri*/
 @media (max-width: 359px) {
   /*index*/
@@ -785,6 +816,37 @@ div.pagos {
   div.pagos select.form-select option {
     font-size: 15px;
   }
+  /*pagina05*/
+  main.pag05 {
+    background-image: linear-gradient(rgb(0, 31, 51), black);
+  }
+  main.pag05 h2 {
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+  }
+  main.pag05 table.table {
+    font-size: 15px;
+    color: white;
+  }
+  main.pag05 table.table tbody td img {
+    width: 65px;
+    height: auto;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  main.pag05 div.button-pag05 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+  }
+  main.pag05 div.button-pag05 button {
+    margin: 15px;
+    width: 80%;
+    border-radius: 90px;
+  }
 }
 @media (min-width: 360px) and (max-width: 767px) {
   /*index*/
@@ -865,6 +927,37 @@ div.pagos {
     height: auto;
     border-radius: 25px;
   }
+  /*pagina05*/
+  main.pag05 {
+    background-image: linear-gradient(rgb(0, 31, 51), black);
+  }
+  main.pag05 h2 {
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+  }
+  main.pag05 table.table {
+    font-size: 14px;
+    color: white;
+  }
+  main.pag05 table.table tbody td img {
+    width: 60px;
+    height: auto;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  main.pag05 div.button-pag05 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+  }
+  main.pag05 div.button-pag05 button {
+    margin: 15px;
+    width: 80%;
+    border-radius: 90px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   /*pagina02*/
@@ -901,169 +994,193 @@ div.pagos {
   div.descripcion, div.descripcion01 {
     padding: 10px;
   }
+  /*pagina05*/
+  main.pag05 {
+    background-image: linear-gradient(rgb(0, 31, 51), black);
+  }
+  main.pag05 h2 {
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+  }
+  main.pag05 table.table {
+    color: white;
+  }
+  main.pag05 table.table tbody td img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+  }
+  main.pag05 div.button-pag05 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+  }
+  main.pag05 div.button-pag05 button {
+    margin: 15px;
+    width: 40%;
+    border-radius: 90px;
+  }
 }
+/*los eventos son blackFriday y ciberMonday por ahora*/
 /*detalles*/
 header nav {
-  background-color: rgb(0, 160, 8);
+  background-color: rgb(38, 186, 206);
 }
 
 ul.dropdown-menu {
-  background-color: rgb(0, 160, 8);
+  background-color: rgb(38, 186, 206);
 }
 
 div.navbar-collapse {
-  background-color: rgb(0, 160, 8);
+  background-color: rgb(38, 186, 206);
 }
 
 div.dropdown-menu {
-  background-color: rgb(0, 160, 8);
+  background-color: rgb(38, 186, 206);
 }
 
 div.productos img.prod1:hover {
-  border: 5px solid rgb(0, 160, 8);
+  border: 5px solid rgb(38, 186, 206);
 }
 
 div.productos img.prod2:hover {
-  border: 5px solid rgb(0, 160, 8);
+  border: 5px solid rgb(38, 186, 206);
 }
 
 div.productos img.prod3:hover {
-  border: 5px solid rgb(0, 160, 8);
+  border: 5px solid rgb(38, 186, 206);
 }
 
 div.productos img.prod4:hover {
-  border: 5px solid rgb(0, 160, 8);
+  border: 5px solid rgb(38, 186, 206);
 }
 
 h2.titleProductos {
-  background-color: rgb(0, 160, 8);
+  background-color: rgb(38, 186, 206);
 }
 
 h2.titleRedessociales {
-  background-color: rgb(0, 160, 8);
+  background-color: rgb(38, 186, 206);
 }
 
 nav.redes_sociales ol li a:hover {
-  background-color: rgb(0, 160, 8);
+  background-color: rgb(38, 186, 206);
 }
 
 nav.menu_footer ul li a:hover {
-  background-color: rgb(0, 160, 8);
+  background-color: rgb(38, 186, 206);
 }
 
 div.volver_arriba a span {
-  color: rgb(0, 160, 8);
+  color: rgb(38, 186, 206);
 }
 
 div.productos ol div.line {
-  border-top: 1px solid rgb(0, 160, 8);
+  border-top: 1px solid rgb(38, 186, 206);
 }
 
 div.gallery div {
-  border: solid 1px rgb(0, 160, 8);
+  border: solid 1px rgb(38, 186, 206);
 }
 
 .formulario textarea {
-  border: 2px solid rgb(0, 160, 8);
+  border: 2px solid rgb(38, 186, 206);
 }
 
 div.sobre-nosotros div {
-  border: 1px solid rgb(0, 160, 8);
+  border: 1px solid rgb(38, 186, 206);
 }
 
 aside.variantes {
-  border: 2px solid rgb(0, 160, 8);
+  border: 2px solid rgb(38, 186, 206);
 }
 
 div.pagos select.form-select {
-  border: 1px solid rgb(0, 160, 8);
+  border: 1px solid rgb(38, 186, 206);
 }
 
 div.dropdown div.dm {
-  border-color: rgb(0, 160, 8);
+  border-color: rgb(38, 186, 206);
 }
 
 div.dropdown div a:hover {
-  background-color: rgb(0, 160, 8);
+  background-color: rgb(38, 186, 206);
 }
 
 div.dropdown button.btn-primary {
-  border: 1px solid rgb(0, 160, 8);
+  border: 1px solid rgb(38, 186, 206);
 }
 
 /*fondos*/
 body header {
-  background: rgba(2, 0, 0, 0.829);
+  background: rgb(0, 31, 51);
 }
 
 header nav ul li a:hover {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 header nav ul li a.dropdown-item:hover {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 nav.menu_header div.dropdown button {
-  color: rgba(2, 0, 0, 0.829);
+  color: rgb(0, 31, 51);
 }
 
 nav.menu_header div.dropdown button:hover {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 div.dropdown-menu ol li a:hover {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 footer {
-  background: rgba(2, 0, 0, 0.829);
+  background: rgb(0, 31, 51);
 }
 
 div.productos {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 div.redes_sociales {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 main.pag02 {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 div.dropdown div.dm {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 div.dropdown button.btn-primary {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 main.pagina_contacto {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 main.pag04 {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 div.pagos select.form-select option {
-  background-color: rgba(2, 0, 0, 0.829);
+  background-color: rgb(0, 31, 51);
 }
 
 /*imagenes*/
-#imagenPrincipal {
-  display: none;
-}
-
 div img.imagen2 {
   display: none;
 }
 
 div img.imagen3 {
-  width: 100%;
-  height: auto;
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
