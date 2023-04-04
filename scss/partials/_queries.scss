@@ -1,0 +1,368 @@
+ /*media queri*/
+ @media (max-width: 359px) {
+    /*index*/
+  
+    div {
+      &.name {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+  
+        h1 {
+          font-size: 25px;
+        }
+      }
+  
+      &.icons {
+        display: none;
+      }
+    }
+  
+    h2.titleProductos {
+      font-size: 20px;
+      padding: 5px;
+    }
+  
+    div.productos ol {
+      font-size: 8px;
+    }
+  
+    h2.titleRedessociales {
+      font-size: 25px;
+      padding: 5px;
+    }
+  
+    div.invitacion p {
+      &.esc {
+        display: none;
+      }
+  
+      &.mov {
+        font-size: 15px;
+        text-decoration: underline;
+      }
+    }
+  
+    /*footer*/
+  
+    footer {
+      height: auto;
+    }
+  
+    div.img_empresa {
+      img {
+        display: none;
+      }
+  
+      h2 {
+        font-size: 35px;
+        padding: 15px;
+      }
+    }
+  
+    nav {
+      &.menu_footer, &.redes_sociales {
+        display: none;
+      }
+    }
+
+    /*pagina02*/
+    main{flex-direction: column;}
+  
+    /*pagina03*/
+  
+    form.contacto div.formulario {
+      input, textarea {
+        width: 90%;
+      }
+    }
+  
+    div.sobre-nosotros iframe {
+      width: 250px;
+      height: auto;
+    }
+  
+    /*pagina04*/
+  
+    main.pag04 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    div.prod div.fotos {
+      display: none;
+    }
+  
+    main.pag04 div.producto {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, auto);
+      grid-template-areas: "img img img" "desc desc desc" "desc01 desc01 desc01" "comp comp comp" "variantes variantes variantes";
+    }
+  
+    aside.variantes {
+      width: 250px;
+      height: 550px;
+      display: flex;
+      flex-flow: wrap;
+      justify-self: center;
+  
+      div img {
+        width: 100px;
+        height: auto;
+        border-radius: 25px;
+      }
+    }
+  
+    div.pagos select.form-select option {
+      font-size: 15px;
+    }
+      /*pagina05*/
+  main.pag05{
+    background-image: linear-gradient($colorMain,black );
+    h2{color: white; padding: 15px; font-size: 25px;}
+    table.table{
+      font-size: 15px;
+      color: white;
+      tbody td img{
+        width: 65px;
+        height: auto;
+        border-radius: 10px;
+        font-size: 10px;
+        margin-top: 10px;
+      }
+    }
+    div.button-pag05{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 15px;
+      button{
+        margin: 15px;
+        width: 80% ;
+        border-radius: 90px
+      }
+
+    }
+    
+  }
+  }
+  
+  @media (min-width: 360px) and (max-width: 767px) {
+
+    /*index*/
+  
+    div {
+      &.name {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+  
+        h1 {
+          font-size: 25px;
+        }
+      }
+  
+      &.icons {
+        display: none;
+      }
+    }
+  
+    h2.titleProductos {
+      font-size: 20px;
+      padding: 5px;
+    }
+  
+    div.productos ol {
+      font-size: 8px;
+    }
+  
+    h2.titleRedessociales {
+      font-size: 18px;
+      padding: 5px;
+    }
+  
+    div.invitacion p {
+      &.esc {
+        display: none;
+      }
+  
+      &.mov {
+        font-size: 15px;
+        text-decoration: underline;
+      }
+    }
+  
+    /*footer*/
+  
+    footer {
+      height: auto;
+    }
+  
+    div.img_empresa {
+      img {
+        display: none;
+      }
+  
+      h2 {
+        font-size: 35px;
+        padding: 15px;
+      }
+    }
+  
+    nav {
+      &.menu_footer, &.redes_sociales {
+        display: none;
+      }
+    }
+
+    /*pagina02*/
+    main{flex-direction: column;}
+  
+    /*pagina03*/
+  
+    form.contacto div.formulario {
+      input, textarea {
+        width: 90%;
+      }
+    }
+  
+    /*pagina04*/
+  
+    main.pag04 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    div.prod div.fotos {
+      display: none;
+    }
+  
+    main.pag04 div.producto {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, auto);
+      grid-template-areas: "img img img" "desc desc desc" "desc01 desc01 desc01" "comp comp comp" "variantes variantes variantes";
+    }
+  
+    aside.variantes {
+      width: 300px;
+      height: 500px;
+      display: flex;
+      flex-flow: wrap;
+      justify-self: center;
+  
+      div img {
+        width: 100px;
+        height: auto;
+        border-radius: 25px;
+      }
+    }
+      /*pagina05*/
+  main.pag05{
+    background-image: linear-gradient($colorMain,black );
+    h2{color: white; padding: 15px; font-size: 20px;}
+    table.table{
+      font-size: 14px;
+      color: white;
+      tbody td img{
+        width: 60px;
+        height: auto;
+        border-radius: 10px;
+        font-size: 10px;
+        margin-top: 10px;
+      }
+    }
+    div.button-pag05{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 15px;
+      button{
+        margin: 15px;
+        width: 80% ;
+        border-radius: 90px
+      }
+
+    }
+    
+  }
+
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1200px) {
+
+    /*pagina02*/
+    main{flex-direction: column;}
+
+    /*pagina04*/
+  
+    main.pag04 {
+      div {
+        &.fotos {
+          display: none;
+        }
+  
+        &.producto {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: 400px 200px 250px;
+          grid-template-areas: "img img img variantes" "desc desc desc variantes" "desc01 desc01 desc01 variantes" "comp comp comp variantes";
+        }
+      }
+  
+      height: auto;
+    }
+  
+    aside.variantes {
+      align-items: center;
+      height: 800px;
+  
+      img {
+        border-radius: 15px;
+  
+        &:hover {
+          width: 170px;
+          height: 170px;
+        }
+      }
+  
+      p {
+        display: none;
+      }
+    }
+
+    div {
+      &.descripcion, &.descripcion01 {
+        padding: 10px;
+      }
+    }
+    /*pagina05*/
+  main.pag05{
+    background-image: linear-gradient($colorMain,black );
+    h2{color: white; padding: 15px; font-size: 25px;}
+    table.table{
+      color: white;
+      tbody td img{
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+      }
+    }
+    div.button-pag05{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 15px;
+      button{
+        margin: 15px;
+        width: 40% ;
+        border-radius: 90px
+      }
+
+    }
+    
+  }
+  }
+  

@@ -1,0 +1,156 @@
+$evento: "ninguno"; 
+/*los eventos son blackFriday y ciberMonday por ahora*/
+
+/*detalles*/
+@if($evento == "ninguno"){
+    header nav {background-color: $colorDetalles;}
+    ul.dropdown-menu {background-color: $colorDetalles;}
+    div.navbar-collapse {background-color: $colorDetalles;}
+    div.dropdown-menu {background-color: $colorDetalles;}
+    div.productos img.prod1:hover {border: 5px solid $colorDetalles;}
+    div.productos img.prod2:hover {border: 5px solid $colorDetalles;}
+    div.productos img.prod3:hover {border: 5px solid $colorDetalles;}
+    div.productos img.prod4:hover {border: 5px solid $colorDetalles;}
+    h2.titleProductos {background-color: $colorDetalles;}
+    h2.titleRedessociales {background-color: $colorDetalles;}
+    nav.redes_sociales ol li a:hover {background-color: $colorDetalles;}
+    nav.menu_footer ul li a:hover {background-color: $colorDetalles;}
+    div.volver_arriba a span {color: $colorDetalles;}
+    div.productos ol div.line {border-top: 1px solid $colorDetalles;}
+    div.gallery div {border: solid 1px $colorDetalles;}
+    .formulario textarea {border: 2px solid $colorDetalles;}
+    div.sobre-nosotros div {border: 1px solid $colorDetalles;}
+    aside.variantes {border: 2px solid $colorDetalles;}
+    div.pagos select.form-select {border: 1px solid $colorDetalles;}
+
+    div.dropdown div.dm {border-color: $colorDetalles;}
+    div.dropdown div a:hover {background-color: $colorDetalles;}
+    div.dropdown button.btn-primary {border: 1px solid $colorDetalles;}
+
+}@else if($evento == "blackFriday"){
+    header nav {background-color: $colorDBF;}
+    ul.dropdown-menu {background-color: $colorDBF;}
+    div.navbar-collapse {background-color: $colorDBF;}
+    div.dropdown-menu {background-color: $colorDBF;}
+    div.productos img.prod1:hover {border: 5px solid $colorDBF;}
+    div.productos img.prod2:hover {border: 5px solid $colorDBF;}
+    div.productos img.prod3:hover {border: 5px solid $colorDBF;}
+    div.productos img.prod4:hover {border: 5px solid $colorDBF;}
+    h2.titleProductos {background-color: $colorDBF;}
+    h2.titleRedessociales {background-color: $colorDBF;}
+    nav.redes_sociales ol li a:hover {background-color: $colorDBF;}
+    nav.menu_footer ul li a:hover {background-color: $colorDBF;}
+    div.volver_arriba a span {color: $colorDBF;}
+    div.productos ol div.line {border-top: 1px solid $colorDBF;}
+    div.gallery div {border: solid 1px $colorDBF;}
+    .formulario textarea {border: 2px solid $colorDBF;}
+    div.sobre-nosotros div {border: 1px solid $colorDBF;}
+    aside.variantes {border: 2px solid $colorDBF;}
+    div.pagos select.form-select {border: 1px solid $colorDBF;}
+    div.dropdown div.dm {border-color: $colorDBF;}
+    div.dropdown div a:hover {background-color: $colorDBF;}
+    div.dropdown button.btn-primary {border: 1px solid $colorDBF;}
+
+
+}@else if($evento == "ciberMonday"){
+    header nav {background-color: $colorDCM;}
+    ul.dropdown-menu {background-color: $colorDCM;}
+    div.navbar-collapse {background-color: $colorDCM;}
+    div.dropdown-menu {background-color: $colorDCM;}
+    div.productos img.prod1:hover {border: 5px solid $colorDCM;}
+    div.productos img.prod2:hover {border: 5px solid $colorDCM;}
+    div.productos img.prod3:hover {border: 5px solid $colorDCM;}
+    div.productos img.prod4:hover {border: 5px solid $colorDCM;}
+    h2.titleProductos {background-color: $colorDCM;}
+    h2.titleRedessociales {background-color: $colorDCM;}
+    nav.redes_sociales ol li a:hover {background-color: $colorDCM;}
+    nav.menu_footer ul li a:hover {background-color: $colorDCM;}
+    div.volver_arriba a span {color: $colorDCM;}
+    div.productos ol div.line {border-top: 1px solid $colorDCM;}
+    div.gallery div {border: solid 1px $colorDCM;}
+    .formulario textarea {border: 2px solid $colorDCM;}
+    div.sobre-nosotros div {border: 1px solid $colorDCM;}
+    aside.variantes {border: 2px solid $colorDCM;}
+    div.pagos select.form-select {border: 1px solid $colorDCM;}
+    div.dropdown div.dm {border-color: $colorDCM;}
+    div.dropdown div a:hover {background-color: $colorDCM;}
+    div.dropdown button.btn-primary {border: 1px solid $colorDCM;}
+
+
+}
+
+/*fondos*/
+
+@if($evento == "blackFriday"){
+    body header {background: $colorMBF;}
+    header nav ul li a:hover {background-color: $colorMBF;}
+    header nav ul li a.dropdown-item:hover {background-color:$colorMBF;}
+    nav.menu_header div.dropdown button {color: $colorMBF;}
+    nav.menu_header div.dropdown button:hover {background-color: $colorMBF;}
+    div.dropdown-menu ol li a:hover {background-color: $colorMBF;}
+    footer {background: $colorMBF;}
+    div.productos {background-color: $colorMBF;}
+    div.redes_sociales {background-color: $colorMBF;}
+
+    main.pag02 {background-color: $colorMBF;}
+    div.dropdown div.dm {background-color: $colorMBF;}
+    div.dropdown button.btn-primary {background-color: $colorMBF;}
+    main.pagina_contacto {background-color: $colorMBF;}
+    main.pag04 {background-color: $colorMBF;}
+    div.pagos select.form-select option {background-color: $colorMBF;}
+
+}@else if($evento == "ninguno" ){
+    body header {background: $colorMain;}
+    header nav ul li a:hover {background-color: $colorMain;}
+    header nav ul li a.dropdown-item:hover {background-color:$colorMain;}
+    nav.menu_header div.dropdown button {color: $colorMain;}
+    nav.menu_header div.dropdown button:hover {background-color: $colorMain;}
+    div.dropdown-menu ol li a:hover {background-color: $colorMain;}
+    footer {background: $colorMain;}
+    div.productos {background-color: $colorMain;}
+    div.redes_sociales {background-color: $colorMain;}
+    main.pag02 {background-color: $colorMain;}
+    div.dropdown div.dm {background-color: $colorMain;}
+    div.dropdown button.btn-primary {background-color: $colorMain;}
+    main.pagina_contacto {background-color: $colorMain;}
+    main.pag04 {background-color: $colorMain;}
+    div.pagos select.form-select option {background-color: $colorMain;}
+
+
+}@else if($evento == "ciberMonday"){
+    body header {background: $colorMCM;}
+    header nav ul li a:hover {background-color: $colorMCM;}
+    header nav ul li a.dropdown-item:hover {background-color:$colorMCM;}
+    nav.menu_header div.dropdown button {color: $colorMCM;}
+    nav.menu_header div.dropdown button:hover {background-color: $colorMCM;}
+    div.dropdown-menu ol li a:hover {background-color: $colorMCM;}
+    footer {background: $colorMCM;}
+    div.productos {background-color: $colorMCM;}
+    div.redes_sociales {background-color: $colorMCM;}
+    main.pag02 {background-color: $colorMCM;}
+    div.dropdown div.dm {background-color: $colorMCM;}
+    div.dropdown button.btn-primary {background-color: $colorMCM;}
+    main.pagina_contacto {background-color: $colorMCM;}
+    main.pag04 {background-color: $colorMCM;}
+    div.pagos select.form-select option {background-color: $colorMCM;}
+
+
+}
+
+
+/*imagenes*/
+@if($evento == "ninguno"){
+    div img.imagen2{display: none;}
+    div img.imagen3{display: none;}
+
+}@else if($evento == "blackFriday"){
+    #imagenPrincipal{display: none;}
+    div img.imagen2{width: 100%; height: auto;}
+    div img.imagen3{display: none;}
+
+
+}@else if($evento == "ciberMonday"){
+    #imagenPrincipal{display: none;}
+    div img.imagen2{display: none;}
+    div img.imagen3{width: 100%; height: auto;}
+}
